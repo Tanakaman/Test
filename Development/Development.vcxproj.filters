@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{9dcfad11-20b5-411f-bb83-1db0a278e678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\System">
+      <UniqueIdentifier>{8c0e7bc9-d335-4de5-bf78-383c2f94a829}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Object">
+      <UniqueIdentifier>{28bb20a9-3b8c-45aa-a31c-609f177906ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Collection">
+      <UniqueIdentifier>{6da8c4d1-a6fb-46bb-ab53-09dfc49afe80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Collection\List">
+      <UniqueIdentifier>{392a1d92-e5c0-49da-9773-ef68fc1c6bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Component">
+      <UniqueIdentifier>{d5d94839-84ee-45cb-baa1-492e2d19fe49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Scene">
+      <UniqueIdentifier>{875ae496-4732-4330-912b-891aa6506954}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\System\Application.cpp">
+      <Filter>Sources\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\System\Window.cpp">
+      <Filter>Sources\System</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Project.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\GameObject.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\Object.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Component\Component.cpp">
+      <Filter>Sources\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scene\Scene.cpp">
+      <Filter>Sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scene\BattleScene.cpp">
+      <Filter>Sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Object\ObjectContainer.cpp">
+      <Filter>Sources\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scene\SceneHierarchy.cpp">
+      <Filter>Sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Scene\SceneNavigator.cpp">
+      <Filter>Sources\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Component\Transform.cpp">
+      <Filter>Sources\Component</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\System\Application.h">
+      <Filter>Sources\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\System\Window.h">
+      <Filter>Sources\System</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Project.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Object\GameObject.h">
+      <Filter>Sources\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Object\Object.h">
+      <Filter>Sources\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Collection\List\List.hpp">
+      <Filter>Sources\Collection\List</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Component\Component.h">
+      <Filter>Sources\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Scene\Scene.h">
+      <Filter>Sources\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Scene\BattleScene.h">
+      <Filter>Sources\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Object\ObjectContainer.h">
+      <Filter>Sources\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Scene\SceneHierarchy.h">
+      <Filter>Sources\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Scene\SceneNavigator.h">
+      <Filter>Sources\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Component\Transform.h">
+      <Filter>Sources\Component</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
